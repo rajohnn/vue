@@ -1,10 +1,10 @@
 /* This file should be reviewed. It's not optimal, but it works for now. */
 .navbar {
     display: list-item;
-    background: #1e0e40;
+    background-color: #3352a8;
 }
 
-.dark { color: #1e0e40; }
+.dark { color: black; }
 .fuscia { color: #e91e63; }
 
 .dark-bg { background: #1e0e40; }
@@ -13,8 +13,8 @@
 .btn-primary:hover { background: #1e0e40; border: 1px #1e0e40 solid;}
 
 .page-item.active .page-link {
-    background: #e91e63;
-    border-color: #e91e63;
+    background: black;
+    border-color: grey;
 }
 
 .page-link:focus {
@@ -22,10 +22,10 @@
 }
 
 a, .page-link, .page-link:hover {
-    color: #e91e63;
+    color: darkblue;
 }
 a:hover {
-    color: #1e0e40;
+    color: lightblue;
 }
 
 /* Highlighting rules for nav menu items */
@@ -39,7 +39,7 @@ li.nav-item {
 .nav-item a.active,
 .nav-item a.active:hover,
 .nav-item a.active:focus {
-    background-color: #e91e63;
+    background-color: black;
     color: white;
     text-decoration: underline;
 }
@@ -61,15 +61,6 @@ li.nav-item {
 
 .menu-icon {
     min-width: 30px;
-}
-
-.trilon-logo {
-    max-width: 600px;
-    height: auto;
-}
-.trilon-mini {
-    max-width: 300px;
-    height: auto;
 }
 
 @media (max-width: 767px) {
